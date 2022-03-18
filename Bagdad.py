@@ -4,7 +4,7 @@ def game_number():
     game_count = 0
     game_count += 1
 
-while game_count <= 3:
+while  <= 3:
     user_action = input("Choose an option (Rock, Paper, Scissors): ")
     possible_actions = ["Rock", "Paper", "Scissors"]
     computer_action = random.choice(possible_actions)
